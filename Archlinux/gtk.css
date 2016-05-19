@@ -1,0 +1,23 @@
+#lxdm
+{
+	background-color: black;
+	border:           0;
+}
+#bottom_pane
+{
+	background-color: #1793D1;
+}
+#time
+{
+	font:  Sans 12;
+	color: white;
+}
+#prompt
+{
+	font:  Sans 14;
+	color: white;
+}
+#bottom_pane label
+{
+	font:  Sans 12;
+}
