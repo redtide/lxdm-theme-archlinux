@@ -3,21 +3,57 @@
 	background-color: black;
 	border:           0;
 }
-#bottom_pane
-{
-	background-color: #1793D1;
-}
 #time
 {
-	font:  Sans 12;
 	color: white;
+	font:  Sans 12;
 }
 #prompt
 {
-	font:  Sans 14;
 	color: white;
+	font:  Sans 14;
+}
+#bottom_pane
+{
+	border: 1px solid #303030;
+}
+#bottom_pane
+{
+	background-image: -gtk-gradient(linear, 0 0, 0 1,
+	                  color-stop(0,   #909090),
+	                  color-stop(0.5, #404040),
+	                  color-stop(0.5, #000000),
+	                  color-stop(1,   #404040));
+}
+#bottom_pane > * > button
+{
+	background:       transparent;
+	border:           1px solid transparent;
+	border-radius:    4px;
+	padding:          4px;
+}
+#bottom_pane > * > button:hover
+{
+	background-image: -gtk-gradient(linear, 0 0, 0 1,
+	                  color-stop(0,   #dddddd),
+	                  color-stop(0.5, #808080),
+	                  color-stop(0.5, #404040),
+	                  color-stop(1,   #606060));
+	border-color:     #000000;
+}
+#bottom_pane > * > button:active
+{
+	background-image: -gtk-gradient(linear, 0 0, 0 1,
+	                  color-stop(0,   #505050),
+	                  color-stop(0.5, #202020),
+	                  color-stop(0.5, #000000),
+	                  color-stop(1,   #202020));
+	border-color:     #303030;
 }
 #bottom_pane label
 {
-	font:  Sans 12;
+	color:       white;
+	font:        Sans 12;
+	font-weight: bold;
+	text-shadow: 2px 2px black;
 }
